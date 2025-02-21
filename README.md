@@ -4,17 +4,22 @@
 
 ## Preparation
 
-1. First, create the `results` directory:
+1. First, clone the repository:
+   ```bash
+   git clone https://github.com/mateo-cogeanu/FileToVideo.git
+   ```
+
+2. next, create the `results` directory:
    ```bash
    mkdir results
    ```
 
-2. Install the required dependencies:
+3. Install the required dependencies:
    ```bash
    pip install -r requirements.txt
    ```
 
-3. If you need to decode from YouTube, download `yt-dlp` from the official link:
+4. If you need to decode from YouTube, download `yt-dlp` from the official link:
    [yt-dlp GitHub Releases](https://github.com/yt-dlp/yt-dlp?tab=readme-ov-file#release-files)
 
 ## How to use
